@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_m_paie_m_paie,m_paie.m_paie,model_m_paie_m_paie,base.group_user,1,1,1,1
