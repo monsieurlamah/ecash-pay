@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="view_paie_form_inherit" model="ir.ui.view">
+            <field name="name">paie.paiement.form</field>
+            <field name="model">hr.payslip.employees</field>
+            <field name="inherit_id" ref="payroll.view_hr_payslip_by_employees"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='employee_ids']" position="replace">
+                    <field name="employee_ids"/>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>

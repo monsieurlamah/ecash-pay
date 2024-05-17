@@ -26,6 +26,7 @@
     'data': [
         # 'security/ir.model.access.csv',
         # 'wizard/hr_payslip_run_view.xml',
+        'views/heritage_paie.xml',
         'views/templates.xml',
     ],
     # only loaded in demonstration mode
